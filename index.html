@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/fa/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-info">
+          <img id="logo" src="static/img/logo.png"/>
+          <div class="header-menu" >
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                    <ul class="navbar-nav" >
+                      <li class="nav-item dropdown" >
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                              Haberler
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Blockchain
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Analiz
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Nedir
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+                      <li class="nav-item active">
+                          <a class="nav-link" href="#">Basın Bülteni <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                  </div>
+                </nav>
+          </div>
+          <div class="header-icons">
+            <div class="facebook">
+              <i class="fa fa-facebook-f" aria-hidden="true"></i>
+            </div>
+            <div class="twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="instagram">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="header-switch">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="header-themes">
+                <div class="red-theme">
+                  <input type="radio" id="redTheme" name="radio-group" checked >
+                  <label class="red-theme" for="redTheme"></label>
+                </div>
+              <div class="black-theme">
+                  <input type="radio" id="blackTheme" name="radio-group">
+                  <label class="black-theme" for="blackTheme"></label>
+              </div>
+              <div class="white-theme">
+                  <input type="radio" id="whiteTheme" name="radio-group">
+                  <label class="white-theme" for="whiteTheme"></label>
+              </div>
+          </div>
+          <div class="header-search">
+            <input type="text" name="search" placeholder="Search..">
+          </div>
+       </div>
+   </div>
+   <div class="rate-bar">
+    <div class="marquee"><span>BTC :</span> 49.489 ₺ <span>ETH :</span> 865 ₺ <span>XRP :</span> 1,26 ₺ <span>LTC :</span> 310,14 ₺ <span>USDT :</span> 5,86 ₺ <span>EOS :</span> 19,37 ₺ <span>NEO :</span> 59.7 ₺</div>
+   </div>
+   <div class="container">
+      <div class="event-bar">
+        <img class="event-icon" src="/static/img/fire.png" />
+        <div class="event-info">
+          <span>SON DAKİKA:</span>CEE’nin En Büyük Uluslararası Bankacılık ve Fintech Etkinliği Gerçekleşecek
+        </div>
+      </div>
+      <div class="binance-bar">
+        <div class="binance-banner">
+          <div class="banner">
+            <img src="static/img/banner.png" />
+          </div>
+          <div class="banner-info">
+            <h4>Binance DEX’e BNB-ETH Paritesi Eklendi
+            </h4>
+            <a href="#">Kripto para borsası Binance, Binance Coin ve Ether (BNB/ETH) </a>
+            <div class="blockchain">
+              <span>Blockchain</span>
+              <span id="date">Date</span>
+            </div>
+          </div>
+        </div>
+        <div class="game-list" id="style-3">
+          <div class="game-item">
+            <div class="game-img">
+              <img src="static/img/item1.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">Bitcoin Ödül Yarılanması </h4>
+              <h5 class="game-desc">Madenciliğe Zarar Verebilir</h5>
+              <div class="game-label">
+                <p>Fintech</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="game-item">
+            <div class="game-img">
+              <img src="static/img/item2.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">Virgil Griffith Serbest Bırakıldı! </h4>
+              <div class="game-label">
+                <p>Regulation</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="game-item">
+            <div class="game-img">
+              <img src="static/img/item3.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">Blokzincir Oyunları Teknolojinin  </h4>
+              <h5 class="game-desc">Yayılmasını Hızlandırıyor</h5>
+              <div class="game-label">
+                <p>Fintech</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="game-item">
+            <div class="game-img">
+              <img src="static/img/item4.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">Rusya Merkez Bankası Kendi  </h4>
+              <h5 class="game-desc">Dijital Parasını Test Ediyor</h5>
+              <div class="game-label">
+                <p>Blockchain</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="game-item">
+            <div class="game-img">
+              <img src="static/img/item5.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">Bitcoin Ödül Yarılanması  </h4>
+              <h5 class="game-desc">Dijital Parasını Test Ediyor</h5>
+              <div class="game-label">
+                <p>Blockchain</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="game-item "  >
+            <div class="game-img">
+              <img src="static/img/item6.png"/>
+            </div>
+            <div class="game-info">
+              <h4 class="game-name">SIMS </h4>
+              <div class="game-label">
+                <p>Blockchain</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="editor-bar">
+        <p class="editor-choice">EDİTÖRÜN SEÇTİKLERİ</p>
+        <img src="static/img/line.png"/>
+        <button class="news-btn">Tüm Haberler</button>
+      </div>
+      <div class="news-bar">
+        <div class="news-list">
+          <div class="news-item">
+            <div class="news-card">
+            <div class="news-img">
+              <img src="static/img/news1.png" />
+            </div>
+            <div class="news-info">
+              <p class="news-title">EURO 2020 Biletleri Tokenleştiriliyor</p>
+              <div class="news-bottom">
+                <p class="label">Altcoin</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="news-item">
+          <div class="news-card">
+            <div class="news-img">
+              <img src="static/img/news2.png" />
+            </div>
+            <div class="news-info">
+              <p class="news-title">Ethereum, Akıllı Sözleşme Platformu </p>
+              <div class="news-bottom">
+                <p class="label">Fintech</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="news-item">
+            <div class="news-card">
+            <div class="news-img">
+              <img src="static/img/news3.png" />
+            </div>
+            <div class="news-info">
+              <p class="news-title">Binance.US Android Uygulamasının </p>
+              <div class="news-bottom">
+                <p class="label">Borsa</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-card">
+            <div class="news-img">
+              <img src="static/img/news4.png" />
+            </div>
+            <div class="news-info">
+              <p class="news-title">Telefon Numarasıyla Kripto Para Çalma </p>
+              <div class="news-bottom">
+                <p class="label">Cüzdan</p>
+                <p class="date2"></p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="adds-dev">
+          <div class="adds">
+            <img src="static/img/adds.png"/>
+          </div>
+          <div class="dev-bar">
+            <div class="dev-title">Son Gelişmeler</div>
+            <div class="outer">
+              <div class="progress dark">
+              <div class="left">
+                <div></div>
+                <div></div>
+                <div class="current"></div>
+                <div></div>
+                <div></div>
+              </div>
+              <div class="right">
+                <div>
+                  <span>03.01.2020 - 16:00</span><br/>
+                  <span class="dev-desc">Ethereum, Akıllı Sözleşme....</span>
+                </div>
+    
+                <div>
+                  <span>03.01.2020 - 17:42</span><br/>
+                  <span class="dev-desc">EURO 2020 Biletleri Tokenleştiriliyor</span>
+                </div>
+                <div>
+                  <span>03.01.2020 - 16:00</span><br/>
+                  <span class="dev-desc">Ethereum, Akıllı Sözleşme  ....</span>
+                </div>
+                <div class="current">
+                  <span>03.01.2020 - 11:00</span><br/>
+                  <span class="dev-desc">Merkezileşmeyle Suçlanması </span>
+                </div>
+                <div>
+                  <span>03.01.2020 - 10:00</span><br/>
+                  <span class="dev-desc">Treadway, Blokzincir Kullanımı için  </span>
+                </div>
+                <div>
+                  <span> 03.01.2020 - 09:00</span><br/>
+                  <span class="dev-desc">YÖK Blokzinciri Geleceğin  </span>
+                </div>
+                <div class="done">
+                  <span>03.01.2020 - 17:42</span><br/>
+                  <span class="dev-desc">Merkezileşmeyle Suçlanması </span>
+                </div>
+              </div>
+            </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="interview-bar">
+        <div class="interview-info">
+          <p class="interview-title">Röportaj</p>
+          <img src="static/img/line.png" />
+        </div>
+      </div>
+      <div class="interview-info">
+        <div class="interview-list">
+          <div class="interview-item">
+            <img src="static/img/interview1.png" />
+          </div>
+          <div class="interview-item">
+            <img src="static/img/interview2.png" />
+          </div>
+        </div>
+        <div class="comment-bar">
+          <div>YORUMLAR</div>
+          <img src="static/img/line2.png" />
+          <div class="comment-list">
+            <div class="comment-item">
+              <div class="comment-img">
+                <img src="static/img/comment.png" />
+              </div>
+              <div class="comment-info">
+                Amacıyla her zaman 
+              </div>
+            </div>
+            <div class="comment-item">
+              <div class="comment-img">
+                <img src="static/img/comment.png" />
+              </div>
+              <div class="comment-info">
+                Amacıyla her zaman 
+              </div>
+            </div>
+            <div class="comment-item">
+              <div class="comment-img">
+                <img src="static/img/comment.png" />
+              </div>
+              <div class="comment-info">
+                Amacıyla her zaman 
+              </div>
+            </div>
+            <div class="comment-item">
+              <div class="comment-img">
+                <img src="static/img/comment.png" />
+              </div>
+              <div class="comment-info">
+                Amacıyla her zaman 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="market-bar">
+        <div class="top-row">
+          <div class="market-graph">
+            <div class="market-title">
+              <p>MARKET</p>
+              <img src="static/img/line.png" />
+            </div>
+            <div class="graph-tab">
+              <div class="container" >
+                <div class="row" >
+                  <div class="col-md-12" >
+                    <div class="tabbable-panel" >
+                      <div class="tabbable-line" >
+                        <ul class="nav nav-tabs" >
+                          <li>
+                            <a href="#tab_default_1" data-toggle="tab">EYLÜL</a>
+                          </li>
+                          <li>
+                            <a href="#tab_default_2" data-toggle="tab">EKİM</a>
+                          </li>
+                          <li>
+                            <a href="#tab_default_3" data-toggle="tab">KASIM</a>
+                          </li>
+                        <li class="active-tab">
+                            <a style="color:#fff" href="#tab_default_4" data-toggle="tab">ARALIK</a>
+                          </li>
+                          <li>
+                            <a href="#tab_default_5" data-toggle="tab">OCAK</a>
+                          </li>
+                          <li>
+                            <a href="#tab_default_6" data-toggle="tab">OCAK</a>
+                          </li>
+                          <li class="gli">
+                            <a href="#tab_default_7" data-toggle="tab">OCAK</a>
+                          </li>
+                          <li>
+                            <a href="#tab_default_8" data-toggle="tab">OCAK</a>
+                          </li>
+                        </ul>
+                        <div class="tab-content">
+                          <div class="tab-pane " id="tab_default_1">
+                            <p>Tab 1.</p>
+                            <p> lorem</p>
+                            </div>
+                          <div class="tab-pane" id="tab_default_2">
+                            <p>Tab 2.</p>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                          </div>
+                          <div class="tab-pane" id="tab_default_3">
+                            <p>Tab 3. </p>
+                            <p> Consectetur deleniti quisquam natus eius commodi.</p>
+                        </div>
+                        <div class="tab-pane active" id="tab_default_4">
+                            <img class="graph-img" src="static/img/graph.png" />
+              
+                          </div>
+                          <div class="tab-pane" id="tab_default_5">
+                            <p>Tab 5. </p>
+                            <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                          </div>
+                          <div class="tab-pane" id="tab_default_6">
+                            <p>Tab 6. </p>
+                            <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                          </div>
+                          <div class="tab-pane" id="tab_default_7">
+                            <p>Tab 7. </p>
+                            <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                          </div>
+                          <div class="tab-pane" id="tab_default_8">
+                            <p>Tab 8. </p>
+                            <p>Consectetur deleniti quisquam natus eius commodi.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mining-pool">
+            <div class="btn-bar">
+              <div class="mining-btn">Mining</div>
+              <div class="pool-btn">Pool</div>
+            </div>
+            <div class="bitcoin-carousel">
+              <!--MDB Carousels-->
+          <div class="container mt-4">
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade mb-5" data-ride="carousel" >
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                      <div class="bitcoin-list">
+                        <div class="bitcoin-item coin-active">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin1.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              Bitcoin
+                            </div>
+                            <div class="bitcoin-price">$3946.12</div>
+                            <div class="bitcoin-value">BTC<span>0.95%</span></div>
+                          </div>
+                        </div>
+                        <div class="bitcoin-item">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin2.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              Etherum
+                            </div>
+                            <div class="bitcoin-price">$137.28</div>
+                            <div class="bitcoin-value">ETH<span>1.15%</span></div>
+                          </div>
+                        </div>
+                        <div class="bitcoin-item ">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin3.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              XRP
+                            </div>
+                            <div class="bitcoin-price">$0.3134</div>
+                            <div class="bitcoin-value">XRP<span>1.11%</span></div>
+                          </div>
+                        </div>
+                        <div class="bitcoin-item">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin4.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              Litecoin
+                            </div>
+                            <div class="bitcoin-price">$57.542</div>
+                            <div class="bitcoin-value">LTC<span>0.11%</span></div>
+                          </div>
+                        </div>
+                        <div class="bitcoin-item">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin3.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              XRP
+                            </div>
+                            <div class="bitcoin-price">$0.3134</div>
+                            <div class="bitcoin-value">XRP<span>1.11%</span></div>
+                          </div>
+                        </div>
+                        <div class="bitcoin-item">
+                          <div class="bitcoin-img">
+                            <img src="static/img/bitcoin4.png" />
+                          </div>
+                          <div class="bitcoin-info">
+                            <div class="bitcoin-title">
+                              Litecoin
+                            </div>
+                            <div class="bitcoin-price">$57.542</div>
+                            <div class="bitcoin-value">LTC<span>0.11%</span></div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <!--/First slide-->
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(150).jpg" alt="Second slide">
+                    </div>
+                    <!--/Second slide-->
+                    <!--Third slide-->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(149).jpg" alt="Third slide">
+                    </div>
+                    <!--/Third slide-->
+                    <!--4 slide-->
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(149).jpg" alt="Third slide">
+                  </div>
+                  <!--/4 slide-->
+                </div>
+                <!--/.Slides-->
+              
+            </div>
+        </div>
+        <!--MDB Carousels-->
+            </div>
+        </div>
+        <div class="bottom-row">
+          <div class="market-list">
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market1.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">Merakla Beklenen CME Bitcoin Opsiyonları,
+                  Piyasayı Nasıl Etkileyecek?</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market1.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">Merakla Beklenen CME Bitcoin Opsiyonları,
+                  Piyasayı Nasıl Etkileyecek?</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market2.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">CME Bitcoin Opsiyonları Merakla Bekleniyor!</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market2.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">CME Bitcoin Opsiyonları Merakla Bekleniyor!</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market3.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">Bitcoin Fiyatı Son 50 Günün En Yüksek
+                  Seviyesinde!</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+            <div class="market-item">
+              <div class="market-img">
+                <img src="static/img/market3.png"/>
+              </div>
+              <div class="market-info">
+                <div class="market-title">Bitcoin Fiyatı Son 50 Günün En Yüksek
+                  Seviyesinde!</div>
+                <div class="market-bitcoin">
+                  <span class="bitcoin">Bitcoin</span>
+                  <span class="date2"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+      <div class="video-bar">
+        <div >
+          <p>Video</p>
+          <div class="row">
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                          <iframe width="330" height="240" src="https:www.youtube.com/embed/7fYoflwP3h0" frameborder="0" allowfullscreen></iframe style="border:1px solid white">
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/tJjBRiPxiaA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/Z7hwaeaDk-I" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/5NA7vylNH7s" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/DkSghZe_xSc" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/1EYvRUBCE5w" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/7WTVSu76L64" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/Fxb24kbtXkY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item">
+                          <iframe width="330" height="240" src="https://www.youtube.com/embed/NpT-rOmkQbY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+          </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="what-bar">
+          <div class="what-title">Nedir?</div>
+          <img src="static/img/line3.png" >
+        </div>
+        <div class="ned-list">
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w1.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w2.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w3.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w4.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w5.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+          <div class="ned-item">
+            <div class="ned-img">
+              <img src="static/img/w6.png" />
+            </div>
+            <div class="ned-info">
+              <div class="ned-title">ViaBTC, 2019 Faaliyet Raporunu Yayınladı</div>
+              <div class="fintech">
+                <span class="fin-span">Fintech</span>
+                <span class="date2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bell-bar container">
+        <div class="bell-icon">
+          <img src="static/img/bell.png" />
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="top-row">
+            <div class="links">
+              <div class="list">
+                <h4>HABERLER</h4>
+                <ul>
+                  <li>Kripto Madencilik</li>
+                  <li>Blockchain </li>
+                  <li>Bitcoin</li>
+                  <li>Fintech </li>
+                  <li>Cüzdan </li>
+                  <li>Altcoin </li>
+                  <li>Borsa </li>
+                  <li>Regülasyon</li>
+                </ul>
+              </div>
+              <div class="list">
+                <h4>TEST</h4>
+                <ul>
+                  <li>Kripto Madencilik</li>
+                  <li>Blockchain </li>
+                  <li>Bitcoin</li>
+                  <li>Fintech </li>
+                  <li>Cüzdan </li>
+                  <li>Altcoin </li>
+                  <li>Borsa </li>
+                  <li>Regülasyon</li>
+                </ul>
+              </div>
+              <div class="list">
+                <h4>KAMPÜS</h4>
+                <ul>
+                  <li>Makale </li>
+                  <li>Röportaj </li>
+                  <li>Bansın Bülteni</li>
+                </ul>
+              </div>
+              <div class="list">
+                <h4>NEDİR ?</h4>
+                <ul>
+                  <li>Fintech Nedir? </li>
+                  <li>Madencilik nedir? </li>
+                  <li>Bitcoin Nedir? </li>
+                  <li>Blockchain Nedir? </li>
+                  <li>Ethereum Ned?</li>
+                </ul>
+              </div>
+            </div>
+            <div class="bar">
+              <h4>BİZİ TAKİP EDİN</h4>
+              <div class="bar-icons">
+                <div class="pinterest">
+                  <i class="fa fa-pinterest" aria-hidden="true"></i>
+                </div>
+                <div class="facebook">
+                  <i class="fa fa-facebook-f" aria-hidden="true"></i>
+                </div>
+                <div class="twitter">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="barcode">
+                <img src="static/img/barcode.png"/>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-row">
+           <div class="subscribe-bar">
+             <div class="store">
+               <img src="static/img/google.png" alt="">
+               <img src="static/img/apple.png" alt="">
+             </div>
+             <ul class="subs-list">
+               <li><a href="#">Bizi destekleyebilirsiniz!</a> </li>
+               <li><a href="#"><span>Bitcoin Adresimiz:</span></a><br/>
+                <a href="#"> &nbsp;16qH9pSuUZYmGC4cnzTGvvBW1t1a3oXy3Q </a></li>
+               <li><a href="#"><span>Litecoin Adresimiz:</span></a><br/>
+                <a href="#"> &nbsp; LWph6a4k97t6geyXmSDwJnwuez235UR9AC </a></li>
+               <li><a href="#"><span>Ethereum Adresimiz:</span></a><br/>
+                <a href="#"> &nbsp; 0x8b5a40e7f5d21c05a080ff8cc2df968932de5325</a></li>
+             </ul>
+           </div>
+           <div class="support-bar">
+             <div class="email-subs">E-POSTA ABONELİĞİ </div>
+             <p class="published-content">Yayınlanan içeriklerden anında haberdar
+              olmak istiyorsanız abone olabilirsiniz!</p>
+              <form class="example" >
+                <input type="text" placeholder="E-posta" name="search">
+                <button type="submit">ABONE OL</button>
+              </form>
+             <div class="agreement">
+              <input type="checkbox"  >
+              <label for="vehicle1"> şartlar ve politikaları kabul edin</label><br>
+             </div>
+             <div class="captcha-bar">
+               <div class="input">
+                <input class="captcha-check" type="checkbox"  >
+                <label for="vehicle1"> Ben robot degilium</label><br>
+               </div>
+               <div class="captcha-icon">
+                 <img src="static/img/captcha.png" >
+                 <div>Captcha </div>
+               </div>
+             </div>
+           </div>
+          </div>
+        </div>
+        <div class="footer-bar">
+          <div class="container">
+            <div class="footer-info">
+              <p>Copyright © bfmedia.io All right reserved</p>
+            </div>
+            <div class="footer-list">
+              <ul>
+                <li> <a href="#">Hakkımızda</a></li>
+                <li><a href="#">Gizlilik Sözleşmesi</a></li>
+                <li><a href="#">İletişim</a></li>
+                <li><a href="#">Reklam Ver</a></li>
+                <li><a href="#">Haber Gönder</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   <script src="jq.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
